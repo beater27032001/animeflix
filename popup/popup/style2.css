@@ -1,0 +1,31 @@
+.popup {
+  display: none; /*popup começa invisível */
+
+  /*Coloca o popup no meio*/
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+
+  /* Alinha o texto */
+  text-align: center;
+  padding: 20px;
+
+  background: rgb(77, 77, 77); /*Cor cinza do popup*/
+}
+
+/*Estiliza o button toggle popup*/
+button {
+  padding:15px;
+  font-size:18px;
+  border:2px solid #222;
+  color:#222;
+  text-transform:uppercase;
+  font-weight:600;
+  background:#fff;
+}
+
+/*Muda cor quando passa mouse me cima*/
+button:hover {
+  background:rgb(153, 153, 153);
+}
